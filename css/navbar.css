@@ -15,6 +15,7 @@
   /*=============== HEADER ===============*/
   header {
     width: 100%;
+    background-color: var(--body-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +25,7 @@
 
   /* Change background header */
     .scroll-header {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
   /*=============== NAV ===============*/
