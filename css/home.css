@@ -1,0 +1,61 @@
+
+/*=============== HOME ===============*/
+
+.home__container {
+    row-gap: 3rem;
+  }
+
+.home__title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-0-75);
+    line-height: 1.2;
+  }
+  
+  .home__description {
+    margin-bottom: var(--mb-2);
+  }
+
+
+  /*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 360px) {
+    .svg__img {
+      width: 100%;
+    }
+    .section {
+      padding: 3.5rem 0 1rem;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    .svg__img {
+      width: 100%;
+    }
+    .home__container{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+    .home__img {
+      order: 1;
+    }
+
+  }
+
+  /* For large devices */
+@media screen and (min-width: 968px) {
+    .svg__img {
+        width: 470px;
+      }
+  
+  }
+
+  @media screen and (min-width: 1024px) {
+   
+    .home__img {
+        width: 540px;
+      }
+      .home__description {
+        padding-right: 5rem;
+      }
+  }
