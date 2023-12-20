@@ -1,6 +1,3 @@
-
-ScrollReveal().reveal('.header');
-
 /*=============== SHOW MENU ===============*/
 const showMenu = (toggleId, navId) =>{
   
