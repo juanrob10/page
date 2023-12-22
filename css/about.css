@@ -1,0 +1,38 @@
+/*=============== ABOUT ===============*/
+.about__container {
+    gap: 2.5rem;
+  }
+  
+  .about__data {
+    text-align: center;
+  }
+
+  .about__description {
+    text-align: justify;
+  }
+
+  @media screen and (min-width: 576px) {
+
+    .about__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .about__data {
+
+        text-align: initial;
+    }
+
+    .about__img{
+        order: -1;
+    }
+
+  }
+
+  @media screen and (min-width: 968px) {
+    .about__container{
+
+        column-gap: 6rem;
+    }
+  }
+  
