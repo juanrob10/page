@@ -1,8 +1,6 @@
 
 .gallery__title__container  .section__title-center {
   position: relative;
-
-
 }
 
 .gallery__title__container  .section__title-center::after {
@@ -19,8 +17,20 @@
   
 } 
 
+.load_container {
+  position: relative;
+  width: 100%;
+  min-height: 3rem;
+}
 
+.load_container .button_load{
+  position:absolute;
+  top:0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
 
+}
 
 .nft-grid {
     width: 100%;
