@@ -18,9 +18,11 @@
 } 
 
 .load_container {
+  margin-top: 1rem;
   position: relative;
   width: 100%;
-  min-height: 3rem;
+  height: 3rem;
+
 }
 
 .load_container .button_load{
@@ -29,14 +31,14 @@
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
-
+  height: 100%;
 }
 
 .nft-grid {
     width: 100%;
-    max-width: 1050px;
-    margin: 0 auto;
-    padding: 50px 15px;
+    /*max-width: 1050px;*/
+    /*margin: 0 auto;*/
+    /*padding: 50px 15px;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: auto;
