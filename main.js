@@ -105,9 +105,7 @@ const dark_theme = "dark-theme"
 const icon_theme = "bx-toggle-right"
 
 
-//  selected_theme  => 'dark' || '' 
 
-//  theme_toggle  => 'toggle-right' || '' 
 
 const selected_theme =  localStorage.getItem("selected_theme")
 const selected_icon = localStorage.getItem("selected_icon")
